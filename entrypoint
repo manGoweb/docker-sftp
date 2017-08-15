@@ -86,7 +86,7 @@ function createUser() {
             dirPath=/home/$user/$dirPath
             echo "Creating and/or setting permissions on $dirPath"
             mkdir -p $dirPath
-            chown -R $uid:users $dirPath
+            # chown -R $uid:users $dirPath
         done
     fi
 }
